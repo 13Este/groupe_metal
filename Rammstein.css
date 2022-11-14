@@ -15,9 +15,8 @@ body {
 }
 div.contenu {
     background-color: white;
-    margin: 50px 10% 50px 10%;
-    padding: 0 30px 30px 30px;
-    min-width: 350px;
+    margin: 30px 8px 30px 8px;
+    padding: 0 8px 20px 8px;
     box-shadow: 0px 0px 10px 8px black;
     overflow: visible;
 }
@@ -70,21 +69,20 @@ table.info {
     width: 100%;
     background-color: rgba(120, 20, 20, 0.6);
     color: white;
+    height: 50px;
 }
 table.info th {
-    font-size: 16px;
+    font-size: 14px;
     vertical-align: bottom;
     padding-bottom: 8px;
-    padding-top: 8px;
 }
 table.info td {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     vertical-align: top;
-    padding-bottom: 8px;
 }
 div.colonne {
-    width: 45%;
+    width: 100%;
     margin-top: 20px;
 }
 div.colonne h2 {
@@ -96,7 +94,6 @@ div.colonne h2 {
 }
 div.colonne1 {
     display: inline-block;
-    margin-right: 10%;
 }
 div.membres p {
     text-align: center;
@@ -105,9 +102,6 @@ div.membres p {
     padding: 8px 0;
     margin-top: 4px;
     margin-bottom: 0;
-}
-div.colonne2 {
-    float: right;
 }
 table.aldums {
     vertical-align: top;
@@ -131,4 +125,40 @@ table.albums p.numero {
 table.albums td.albums_titre {
     font-size: 14px;
     padding-left: 10px;
+}
+
+/* Styles pour ardinateur */
+@media only screen and (min-width: 768px) {
+    div.contenu {
+        min-width: 350px;
+        margin: 50px 10% 50px 10%;
+        padding: 0 30px 30px 30px;
+    }
+    table.info {
+        height: 80px;
+    }
+    table.info th {
+        font-size: 16px;
+    }
+    table.info td {
+        font-size: 14px;
+    }
+    div.colonne{
+        width: 45%;
+    }
+    div.colonne1 {
+        margin-right: 10%;
+    }
+    div.colonne2 {
+        float: right;
+    }
+}
+
+/* Styles pour ardinateur plus de 900px */
+@media only screen and (min-width: 900px) {
+    div.contenu {
+        width: 645px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
