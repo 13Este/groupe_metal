@@ -1,0 +1,134 @@
+
+* {
+    overflow: auto;
+}
+
+.centre {
+    text-align: center;
+    width: 100%
+}
+
+body {
+    background-color: rgb(120, 20, 20);
+    font-family: system-ui;
+    margin: 0;
+}
+div.contenu {
+    background-color: white;
+    margin: 50px 10% 50px 10%;
+    padding: 0 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 8px black;
+    overflow: visible;
+}
+div.categorie {
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: visible;
+}
+p.categorie {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 8px 18px;
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+div.separateur {
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.description {
+    display: inline-block;
+    text-align: center;
+    max-width: 500px;
+    font-size: 14px;
+}
+div.info {
+    position: relative;
+}
+img.info {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: black;
+}
+table.info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(120, 20, 20, 0.6);
+    color: white;
+}
+table.info th {
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+table.info td {
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+    padding-bottom: 8px;
+}
+div.colonne {
+    width: 45%;
+    margin-top: 20px;
+}
+div.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid rgb(120, 20, 20);
+    padding-bottom: 5px;
+}
+div.colonne1 {
+    display: inline-block;
+    margin-right: 10%;
+}
+div.membres p {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid rgba(120, 20, 20, 0.6);
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+div.colonne2 {
+    float: right;
+}
+table.aldums {
+    vertical-align: top;
+}
+table.albums tr {
+    height: 40px;
+}
+table.albums p.numero {
+    background-color: rgba(120, 20, 20, 0.6);
+    color: white;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+table.albums td.albums_titre {
+    font-size: 14px;
+    padding-left: 10px;
+}
